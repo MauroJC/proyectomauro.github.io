@@ -169,8 +169,11 @@ main .cuadrocontacto {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+main .cuadrocontacto h2 {
+  padding-top: 10px;
+}
 main .cuadrocontacto h2 a {
-  color: black;
+  color: white;
 }
 main .cuadrocontacto p {
   color: rgb(255, 255, 255);
@@ -183,9 +186,6 @@ main .cuadrocontacto:hover {
   transition: 0.4s ease-in-out;
   border: 4px solid rgb(0, 0, 0);
   background-color: rgba(56, 83, 128, 0.5);
-}
-main .cuadrocontacto:hover p {
-  color: black;
 }
 main .seccion-clientes .clientesindex {
   display: flex;

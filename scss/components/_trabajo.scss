@@ -15,8 +15,11 @@
                     border: 2px solid gray;
                     border-radius: 0.375rem;
                     display: block;
-                    max-width: 607px;
-                    max-height: 405px;
+                    max-width: 50%;
+                }
+
+                p {
+                    max-width: 50%;
                 }
             }
 
@@ -31,8 +34,11 @@
                     border: 2px solid gray;
                     border-radius: 0.375rem;
                     display: block;
-                    max-width: 607px;
-                    max-height: 405px;
+                    max-width: 50%;
+                }
+
+                p {
+                    max-width: 50%;
                 }
             }
         }

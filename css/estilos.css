@@ -427,6 +427,7 @@ body::before {
 }
 .imagenes-trabajo .item-trabajo p {
   max-width: 50%;
+  text-align: justify;
 }
 .imagenes-trabajo .item-trabajo1 {
   display: flex;
@@ -443,6 +444,7 @@ body::before {
 }
 .imagenes-trabajo .item-trabajo1 p {
   max-width: 50%;
+  text-align: justify;
 }
 
 @media screen and (max-width: 700px) {

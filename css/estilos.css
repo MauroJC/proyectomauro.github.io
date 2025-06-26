@@ -62,6 +62,7 @@ body header nav .container-fluid .collapse .navbar-nav {
   gap: 1rem;
   margin: 0 auto;
   justify-content: center;
+  text-align: center;
 }
 body header nav .container-fluid .collapse .navbar-nav a {
   font-weight: 500;

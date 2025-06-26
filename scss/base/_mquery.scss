@@ -1,5 +1,24 @@
 @media screen and (max-width: 700px) {
     body {
+        header {
+            .mainlogo {
+                text-align: center;
+                margin: 0 auto;
+
+                a {
+                    img {
+                        max-width: 50%;
+                        height: auto;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
         main {
             .flex-trabajos {
 
@@ -65,6 +84,7 @@
                         height: auto;
                         padding: 0;
                     }
+
                     p {
                         max-width: 90%
                     }
@@ -81,7 +101,8 @@
                         height: auto;
                         padding: 0;
                     }
-                    p{
+
+                    p {
                         max-width: 90%;
                     }
                 }

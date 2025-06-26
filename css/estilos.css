@@ -448,6 +448,17 @@ body::before {
 }
 
 @media screen and (max-width: 700px) {
+  body header .mainlogo {
+    text-align: center;
+    margin: 0 auto;
+  }
+  body header .mainlogo a img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
   body main .flex-trabajos .trabajo1,
   body main .flex-trabajos .trabajo2 {
     flex-direction: column;

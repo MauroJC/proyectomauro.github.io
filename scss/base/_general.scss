@@ -7,6 +7,17 @@
     --primary: #102436;
     --secondary: #385380;
 }
+//Extend
+.picborder {
+    border: 2px solid gray;
+}
+
+//Mixin
+@mixin footerp ($color, $margin-bottom, $padding-bottom) {
+    color: $color;
+    margin-bottom: $margin-bottom;
+    padding-bottom: $padding-bottom;
+}
 
 body {
     h1 {
@@ -30,3 +41,4 @@ body {
         }
     }
 }
+

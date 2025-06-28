@@ -132,7 +132,7 @@ main {
             justify-content: space-evenly;
 
             .img-nuestrotrabajo1 {
-                border: 2px solid gray;
+                @extend .picborder;
                 border-radius: 0.375rem;
                 height: auto;
                 width: 43%;
@@ -154,7 +154,7 @@ main {
             flex-direction: row-reverse;
 
             .img-nuestrotrabajo2 {
-                border: 2px solid gray;
+                @extend .picborder;
                 border-radius: 0.375rem;
                 height: auto;
                 width: 43%;
@@ -292,9 +292,7 @@ footer {
     }
 
     p {
-        color: black;
-        margin-bottom: 0;
-        padding-bottom: 10px;
+        @include footerp (black, 0, 10px);
 
     }
 
